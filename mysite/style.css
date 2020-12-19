@@ -1,50 +1,39 @@
 a{
-	text-decoration: none;
+text-decoration: none;
+}
+a#netflix{
+	color:red;
+	text-decoration: underline;
+}
+#netflix{
+	color:white;
+	background:white;
+	border:solid 1px white;
+	margin-top: 100px;
+	}
+.google{
+	color:white;
+	border:solid 1px #ff5e57;
+	background:#ff5e57;
 }
 div{
-	width: 200px;
-}
-.one:hover{
-    color:white;
-    background-color: yellow;
-    text-align: center;
-    transition: 0.8s;
-    background:#00d8d6;
-    text-decoration: underline;
-}
-.two:hover{
-    color:#00d8d6;
-    background-color: yellow;
-    text-align: center;
-    transition: 0.8s;
-    background:white;
-    text-decoration: underline;
-}
-body{
-	color:blue;
-}
-div.one{
-	padding:10px 20px;
-	border: 1px solid #00d8d6;
-	font-size:24px; 
-	width: 200px;
-	color:#00d8d6;
+	font-size: 25px;
+	width:100px;
+	border:solid 1px #ff5e57;
+	font-family:"arial";
 	text-align: center;
-	margin-left: 550px;
-	margin-bottom: 10px;
-	margin-top:200px;
-	font-family: "arial";
+    margin-left: 580px;
+    margin-bottom: 50px;
 }
-div.two{
-	padding:10px 20px;
-	border: 1px solid #00d8d6;
-	font-size:24px; 
-	width: 200px;
+div#netflix:hover{
 	color:white;
-	text-align: center;
-	margin-left: 550px;
-	margin-bottom: 10px;
-	margin-top: 20px;
-	font-family: "arial";
-	background:#00d8d6;
-}
+	transition: 1.8s;
+	border:solid 1px #ff5e57;
+	background: #ff5e57;
+}	
+div.google:hover{
+	color:#ff5e57;
+	transition: 1.8s;
+	border:solid 1px white;
+	background: white;
+}	
