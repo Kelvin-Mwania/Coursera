@@ -1,39 +1,49 @@
-a{
-text-decoration: none;
+body{
+background:#fbc531;
+
 }
-a#netflix{
-	color:red;
-	text-decoration: underline;
+p{
+float:left;
+margin-left: 20px;
+background:#fbc531;
 }
-#netflix{
-	color:white;
-	background:white;
-	border:solid 1px white;
-	margin-top: 100px;
-	}
-.google{
-	color:white;
-	border:solid 1px #ff5e57;
-	background:#ff5e57;
-}
-div{
-	font-size: 25px;
-	width:100px;
-	border:solid 1px #ff5e57;
-	font-family:"arial";
+#one{
+	border:solid 1px black;
+	width:50px;
+	height:50px;
+	background:#00a8ff;
 	text-align: center;
-    margin-left: 580px;
-    margin-bottom: 50px;
+	padding-top: 15px;
+	box-sizing: border-box;
+	margin-left:600px;
 }
-div#netflix:hover{
-	color:white;
-	transition: 1.8s;
-	border:solid 1px #ff5e57;
-	background: #ff5e57;
-}	
-div.google:hover{
-	color:#ff5e57;
-	transition: 1.8s;
-	border:solid 1px white;
-	background: white;
-}	
+#two{
+	border:solid 1px black;
+	width:50px;
+	height:50px;
+	background:#9c88ff;
+	text-align: center;
+	padding-top: 15px;
+	box-sizing: border-box;
+	margin-top:300px;
+}
+#three{
+	border:solid 1px black;
+	width:50px;
+	height:50px;
+	background:#c23616;
+	text-align: center;
+	padding-top: 15px;
+	box-sizing: border-box;
+	clear: left;
+	margin-left:600px;
+}
+#four{
+	border:solid 1px black;
+	width:50px;
+	height:50px;
+	background:#192a56;
+	text-align: center;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
