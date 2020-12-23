@@ -1,4 +1,10 @@
-div{
-	box-sizing: border-box;
-	border:1px solid;
+
+div.col-md-6{
+	background-color:#FF9100;
 }
+/*@media(min-width:900px;){
+	.col-md-6 .col-md-6 .col-md-6{
+		float:left; 
+	}
+
+}*/
