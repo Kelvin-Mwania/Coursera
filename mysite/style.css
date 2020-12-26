@@ -1,11 +1,18 @@
+header{
+	background-color: white;
+	src:"C:\Users\admin\Coursera\mysite\Sir-index html.PNG"
+}
+div.container{
+	src:"C:\Users\admin\Coursera\mysite\Sir-index html.PNG"
+}
 h1{
 	text-align: center;
+	font-family: 'Lobster', cursive;;
 }
 .col-md-4{
 	border:1px solid;
 	margin-bottom: 1px;
 	box-sizing: border-box;
-	marg
 }
 @media (min-width:800px;){
  .row{
