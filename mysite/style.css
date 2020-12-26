@@ -1,15 +1,15 @@
 h1{
 	text-align: center;
 }
-.row{
-	background-color:#FF9100;
+.col-md-4{
+	border:1px solid;
+	margin-bottom: 1px;
+	box-sizing: border-box;
+	marg
 }
-.row{
-	border:1px solid yellow;
-}
-@media(min-width:900px;){
-	.col-md-4 .col-md-4 .col-md-4{
-		float:left; 
-	}
-
+@media (min-width:800px;){
+ .row{
+ 	margin
+ 	float:right;
+ }	
 }
